@@ -197,7 +197,11 @@ public class Engine {
 
         return -1;
     }
-
+    
+    /**
+    *项目启动入口main()                                               ----xxxx 2019.7.31----
+    *不做什么工作，catch异常,实现在entry()中
+    */
     public static void main(String[] args) throws Exception {
         int exitCode = 0;
         try {
